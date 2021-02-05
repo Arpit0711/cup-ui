@@ -1,0 +1,21 @@
+.sidebar {
+  display: flex;
+  flex: 0.3;
+  border-right: 0.1px solid #585771;
+  width: 100%;
+  flex-direction: column;
+  cursor: pointer;
+  color: #585771;
+  height: 90vh;
+  background-color: #1d1e26;
+}
+
+.sidebar__items {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+}
+
+.sidebar__items > img {
+  height: 2rem;
+}
